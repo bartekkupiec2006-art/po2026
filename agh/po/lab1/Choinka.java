@@ -1,3 +1,5 @@
+package agh.po.lab1;
+
 public class Choinka {
     public static void main(String[] args) {
         String znakChoinki = "*" ;
