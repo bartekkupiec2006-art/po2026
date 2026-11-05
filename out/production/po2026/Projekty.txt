@@ -1,0 +1,97 @@
+Przykładowe tematy projektów. Proszę wpisywać się pod tematem (2 osoby na temat).
+Można zaproponować swój temat i dopisać go na dole.
+Zasady zapisu przez Pull Request opisane są w README.md.
+
+Tematy projektów:
+
+Kategoria A: Symulacje procesów i systemów (wysoki potencjał na polimorfizm)
+
+1) Symulator Elektrowni Wirtualnej (Virtual Power Plant): Agregacja rozproszonych źródeł energii (panele, wiatraki, magazyny) i bilansowanie produkcji z zapotrzebowaniem w czasie.
+
+2) System Zarządzania Ulem Pszczelim: Monitorowanie kolonii (temperatura, wilgotność, zapasy miodu), harmonogram przeglądów i alerty o rojeniu.
+
+3) Symulator Sortowni Paczek: Taśmociąg z czujnikami, sortowanie paczek według wagi/kierunku/priorytetu na odpowiednie rampy.
+
+4) Model Reaktora Chemicznego (uproszczony): Kontrola temperatury, ciśnienia i stężenia reagentów z regułami bezpieczeństwa i alarmami.
+
+5) Symulator Śluzy Wodnej na Kanale: Sterowanie poziomem wody, kolejką statków oczekujących i sekwencją otwierania wrót.
+
+6) System Zarządzania Chłodnią Magazynową: Strefy o różnej temperaturze, monitoring towarów wrażliwych (żywność, leki) i alarmy przy przekroczeniu progów.
+
+7) Symulator Kopalni Odkrywkowej: Zarządzanie flotą koparek i wywrotek, harmonogram wydobycia i transportu urobku między punktami.
+
+8) System Sterowania Szklarnią: Automatyczne nawadnianie, oświetlenie i wentylacja w zależności od odczytów czujników i rodzaju uprawy.
+
+9) Symulator Toru Wyścigowego: Model okrążeń, zużycia opon/paliwa, strategii pit-stopów i klasyfikacji zawodników na mecie.
+
+10) System Zarządzania Schroniskiem Górskim: Rezerwacje miejsc noclegowych, zaopatrzenie w zapasy, prognoza pogody i zamykanie szlaków w razie zagrożenia.
+
+Kategoria B: Tematy bardziej techniczne (sieci, systemy, niższy poziom)
+
+11) Mini Serwer HTTP: Własna implementacja serwera obsługującego żądania GET/POST, routing ścieżek i serwowanie plików statycznych (biblioteka gniazd/Sockets, bez frameworków webowych).
+
+12) Rozproszony Czat Klient-Serwer: Komunikacja wielu klientów przez gniazda sieciowe, pokoje rozmów, obsługa rozłączeń i historii wiadomości.
+
+13) Symulator Sieci Komputerowej: Model węzłów i łączy, implementacja prostego algorytmu routingu (np. najkrótsza ścieżka) i wizualizacja przepływu pakietów.
+
+14) Mini Baza Danych typu Key-Value Store: Przechowywanie danych klucz-wartość z indeksowaniem, zapisem trwałym do pliku (Write-Ahead Log) i prostym językiem zapytań.
+
+15) System Kolejkowania Zadań (Task Scheduler): Kolejka zadań z priorytetami, pula wątków roboczych (worker threads) i obsługa zależności między zadaniami.
+
+16) Symulator Systemu Plików: Struktura drzewa katalogów/plików w pamięci, operacje (utwórz, usuń, przenieś, prawa dostępu) i serializacja całej struktury do pliku.
+
+17) Silnik Reguł Biznesowych (Rule Engine): System ewaluujący konfigurowalny zestaw reguł (warunek -> akcja) nad strumieniem zdarzeń wejściowych.
+
+18) System Monitoringu Zasobów (Mini APM): Zbieranie metryk (CPU, pamięć, liczba wątków) z symulowanych procesów, progi alarmowe i agregacja danych w czasie.
+
+19) Implementacja Protokołu Głosowania Rozproszonego (Consensus): Uproszczony algorytm uzgadniania stanu (np. wybór lidera) między symulowanymi węzłami w sieci.
+
+20) Kompresor Plików (własny format): Implementacja prostego algorytmu kompresji (np. Huffman lub RLE) z zachowaniem struktury katalogów i metadanych.
+
+Kategoria C: Gry i rozrywka (najciekawsze na diagramy sekwencji)
+
+21) Gra Karciana Kooperacyjna (np. typu "Hanabi"): Ograniczona informacja o własnych kartach, system podpowiedzi między graczami i warunki zwycięstwa/porażki drużyny.
+
+22) Symulator Aukcji Licytacyjnej (Draft): Gracze licytują o pulę przedmiotów/zawodników w turach, z budżetem i strategią przeciwników (prosta AI).
+
+23) Gra Logiczna typu Sokoban (edytor + silnik): Plansza z przeszkodami, pchanie skrzyń na cele, walidacja rozwiązywalności poziomu i edytor poziomów.
+
+24) System Rozgrywek Turniejowych z Rankingiem ELO: Rejestracja meczów, aktualizacja rankingu graczy po każdym wyniku i generowanie drabinki na kolejną rundę.
+
+25) Gra Strategiczna 4X (uproszczona, tekstowa): Eksploracja mapy heksagonalnej, rozbudowa osad, drzewko technologii i podstawowe starcia jednostek.
+
+26) Silnik Przygodówki Tekstowej (Interactive Fiction Engine): Parser komend, stan świata, ekwipunek gracza i wczytywanie scenariuszy z plików konfiguracyjnych.
+
+27) Symulator Zarządzania Drużyną Sportową (Manager): Skład zawodników o statystykach, budżet transferowy, plan meczów i symulacja wyników na podstawie atrybutów.
+
+28) Gra Karciana Deckbuilding (np. w stylu Dominion): Budowanie talii w trakcie gry, fazy tur, efekty kart wzajemnie na siebie oddziałujące.
+
+29) System Generowania Losowych Lochów (Procedural Dungeon Generator): Algorytm generujący połączone pomieszczenia i korytarze, rozmieszczenie przeciwników/skarbów według reguł.
+
+30) Gra Logiczna Puzzle z Mechaniką Grawitacji (np. typu "2048" lub "Match-3"): Plansza z klockami, reguły łączenia/znikania, system punktacji i poziom trudności.
+
+Kategoria D: Systemy specjalistyczne i domenowe (Idealne na diagramy przypadków użycia)
+
+31) System Zarządzania Laboratorium Badawczym: Rezerwacja aparatury, próbki i ich cykl życia (pobranie -> analiza -> archiwizacja), harmonogram badań.
+
+32) System Obsługi Zgłoszeń Serwisowych (Helpdesk / Ticketing): Zgłoszenia z priorytetami i SLA, przypisywanie do zespołów, historia eskalacji.
+
+33) System Zarządzania Flotą Dronów Dostawczych: Planowanie tras, monitoring baterii, przydział przesyłek i obsługa awarii w locie.
+
+34) System Ewidencji Sprzętu Wypożyczanego na Uczelni (np. sprzęt AV, laboratoryjny): Rezerwacje, stan techniczny, protokoły wydania/zwrotu i kary za zniszczenia.
+
+35) System Zarządzania Wydarzeniem Festiwalowym (Line-up i sceny): Harmonogram wielu scen równolegle, konflikty czasowe artystów, akredytacje i strefy dostępu.
+
+36) System Obsługi Zgłoszeń Awarii Miejskiej Infrastruktury (np. oświetlenie, wodociągi): Zgłoszenia mieszkańców, przydział ekip technicznych, priorytetyzacja według typu awarii.
+
+37) System Zarządzania Cyfrowym Archiwum Dokumentów: Wersjonowanie dokumentów, uprawnienia dostępu na poziomie działów, wyszukiwanie pełnotekstowe metadanych.
+
+38) System Planowania Produkcji Filmowej (Call Sheet Manager): Harmonogram zdjęciowy, dostępność aktorów/ekipy, lokacje i zależności między scenami.
+
+39) System Zarządzania Programem Lojalnościowym Wielopoziomowym: Naliczanie punktów z różnych źródeł, progi poziomów, wygasanie punktów i katalog nagród.
+
+40) System Ewidencji i Konserwacji Sprzętu Przemysłowego (Maintenance Management): Harmonogram przeglądów prewencyjnych, historia usterek, żywotność części zamiennych.
+
+Kategoria E: Propozycje własne studentów.
+
+(Miejsce na własne tematy - dopiszcie temat i swoje imiona i nazwiska poniżej, zgodnie z zasadami zapisu z README.md)
