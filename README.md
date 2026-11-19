@@ -15,7 +15,7 @@ Krok po kroku:
 2. **Wybierzcie temat** z listy w `Projekty.txt` i dopiszcie pod nim wasze imiona i nazwiska (2 osoby na temat). Jeśli chcecie zaproponować własny temat — dopiszcie go na końcu listy, w kategorii D, razem z waszymi nazwiskami.
 3. **Sprawdźcie, czy temat jest jeszcze wolny** — jeśli ktoś już się pod nim wpisał, wybierzcie inny lub zaproponujcie własny.
 4. **Utwórzcie commit** ze zmianą wyłącznie w pliku `Projekty.txt` (jeden temat = jedna linijka z nazwiskami — nie modyfikujcie innych zapisów).
-5. **Otwórzcie Pull Request** (`Create Pull Request`) do brancha `main` tego repozytorium, z krótkim opisem, np. "Zapis: [nr tematu] - [Imię Nazwisko], [Imię Nazwisko]".
+5. **Otwórzcie Pull Request** (`Create Pull Request`) do brancha `Main` tego repozytorium, z krótkim opisem, np. "Zapis: [nr tematu] - [Imię Nazwisko], [Imię Nazwisko]".
 6. **Poczekajcie na zatwierdzenie** — PR zostanie zmergowany po sprawdzeniu, że temat nie jest zajęty i że zmiana dotyczy tylko waszego wpisu. Dopiero po zmergowaniu PR-a temat jest uznawany za zarezerwowany.
 
 Uwagi:
